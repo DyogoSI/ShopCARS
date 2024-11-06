@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #111;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carros-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.carro {
+    background-color: #111; 
+    border-radius: 4px;
+    padding: 20px;
+    color: #fff;
+}
+
+.preco {
+    color: #febe01;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.carro p {
+    color: #b2b2b2;
+    margin: 5px 0;
+}
+
+.carro strong {
+    color: #febe01;
+}
+
+/* Botão de Fazer Proposta */
+.fazer-proposta {
+    background-color: #febe01;
+    color: #332200;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fazer-proposta:hover {
+    background-color: #e0b000;
+}
